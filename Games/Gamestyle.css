@@ -54,3 +54,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: 	#c0c0c0;
+}
