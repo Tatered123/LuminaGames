@@ -1,0 +1,73 @@
+
+#tom {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/unnamed.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 65px;
+    transition: transform 0.3s, border 0.3s;
+}
+
+#tom:hover {
+    transform: scale(1.2);
+    border: 5px solid #702963;
+}
+
+#sws {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/subwaysurfers-1677630205274.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 227.5px;
+    transition: transform 0.3s, border 0.3s;
+}
+
+#sws:hover {
+    transform: scale(1.2);
+    border: 5px solid #702963;
+}
+
+#gd {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/Geometry_Dash_Logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 390px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #gd:hover {
+    transform: scale(1.2);
+    border: 5px solid #702963;
+  }
+  
