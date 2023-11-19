@@ -63,7 +63,6 @@
     position: absolute;
     top: 75px;
     left: 390px;
-    background: none;
     transition: transform 0.3s, border 0.3s;
   }
   
@@ -88,7 +87,6 @@
     position: absolute;
     top: 75px;
     left: 617.5px;
-    background: none;
     transition: transform 0.3s, border 0.3s;
   }
   
