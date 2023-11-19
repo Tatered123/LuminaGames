@@ -249,4 +249,26 @@
     border: 4px solid #702963;
   }
 
-  
+  #tio {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/1535515597_IGDB-272x380.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 585px;
+    transition: transform 0.3s, border 0.3s;
+  }
+
+  #tio:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
