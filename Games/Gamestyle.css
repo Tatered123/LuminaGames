@@ -55,6 +55,11 @@ button:hover {
     border: none; /* Remove button border */
     display: inline-block; /* Make the button an inline block */
     cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    top: 0;
+    left: 0;
 }
 
 #tom:hover {
