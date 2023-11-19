@@ -192,7 +192,7 @@
     margin: 10px;
     position: absolute;
     top: 120px;
-    left: 1072.5;
+    right: 97.5px;
     transition: transform 0.3s, border 0.3s;
   }
   
@@ -216,7 +216,7 @@
     margin: 10px;
     position: absolute;
     top: 120px;
-    left: 1235px;
+    right: 260px;
     transition: transform 0.3s, border 0.3s;
   }
   
@@ -240,7 +240,7 @@
     margin: 10px;
     position: absolute;
     top: 120px;
-    left: 1392.5px;
+    right: 422.5px;
     transition: transform 0.3s, border 0.3s;
   }
   
