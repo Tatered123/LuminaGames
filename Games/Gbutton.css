@@ -54,7 +54,7 @@
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    border: none; 
+    border: 0px; 
     display: inline-block; 
     cursor: pointer; 
     border-radius: 8px;
@@ -67,6 +67,6 @@
 
 #gd:hover {
     transform: scale(1.2);
-    border: 3px;
+    border: 100px;
     border-color: #702963;
 }
