@@ -64,7 +64,6 @@
     top: 120px;
     left: 422.5px;
     transition: transform 0.3s, border 0.3s;
-    background: transparent;
   }
   
   #gd:hover {
