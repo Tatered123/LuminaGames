@@ -1,0 +1,252 @@
+
+#tom {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/unnamed.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 97.5px;
+    transition: transform 0.3s, border 0.3s;
+}
+
+#tom:hover {
+    transform: scale(1.2);
+    border: 3px solid #702963;
+}
+
+#sws {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/subwaysurfers-1677630205274.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    transition: transform 0.3s, border 0.3s;
+}
+
+#sws:hover {
+    transform: scale(1.2);
+    border: 3px solid #702963;
+}
+
+#gd {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/Geometry_Dash_Logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 422.5px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #gd:hover {
+    transform: scale(1.2);
+    border: 3px solid #702963;
+  }
+
+  #rcw {
+    width: 125px;
+    height: 125px;
+    background-image: url('https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9a473490c7a26d5ac561cf021b5e7b6d.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 585px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #rcw:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header, main, footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add more styles as needed for specific elements */
+  
+  @media screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    /* Styles for medium-sized screens */
+  }
+
+  #la2 {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/little-alchemy-1024-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 747.5px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #la2:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
+
+  #mx3 {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/moto-x3m-pool-party.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 910px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #mx3:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
+
+  #pr3 {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/512x512bb.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 1072.5;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #pr3:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
+
+  #tinf {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/tiny-fishing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 1235px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #tinf:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
+
+  #ones {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/1-on-1-soccer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 120px;
+    left: 1392.5px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #ones:hover {
+    transform: scale(1.2);
+    border: 4px solid #702963;
+  }
+
+  

@@ -1,0 +1,107 @@
+body {
+    background-color: #6d6161;
+}
+
+iframe {
+    width: 66%;
+    height: 66%;
+    border-radius: 7px;
+    border: #272525;
+    border: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home-button {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/1828/1828864.png');
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%, -0%);
+}
+
+#home-button:hover {
+    transform: scale(1.05);
+}
+
+#game-button {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/game-controller-256.png');
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    left: 4%;
+    transform: translate(-4%, -0%);
+}
+
+#game-button:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#fullscreenButton {
+    background-image: url('enter here');
+    width: 50px;
+    height: 50px;
+    transition: transfrom 0.3;
+}
+
+#fullscreenButton:hover {
+    transform: scale(1.13);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header, main, footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add more styles as needed for specific elements */
+  
+  @media screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    /* Styles for medium-sized screens */
+  }
+  
