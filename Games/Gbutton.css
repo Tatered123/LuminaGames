@@ -15,12 +15,12 @@
     position: absolute;
     top: 75px;
     left: 65px;
+    transition: transform 0.3s, border 0.3s;
 }
 
 #tom:hover {
     transform: scale(1.2);
-    border: 3px;
-    border-color: #702963;
+    border: 2px solid #702963;
 }
 
 #sws {
@@ -39,34 +39,35 @@
     position: absolute;
     top: 75px;
     left: 227.5px;
+    transition: transform 0.3s, border 0.3s;
 }
 
 #sws:hover {
     transform: scale(1.2);
-    border: 3px;
-    border-color: #702963;
+    border: 2px solid #702963;
 }
 
 #gd {
     width: 125px;
     height: 125px;
-    background-image: url('/images/Geometry_Dash_Logo.png'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    border: 0px; 
-    display: inline-block; 
-    cursor: pointer; 
+    background-image: url('/images/Geometry_Dash_Logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
     border-radius: 8px;
     padding: 10px 15px;
     margin: 10px;
     position: absolute;
     top: 75px;
     left: 390px;
-}
-
-#gd:hover {
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #gd:hover {
     transform: scale(1.2);
-    border: 100px;
-    border-color: #702963;
-}
+    border: 2px solid #702963;
+  }
+  
