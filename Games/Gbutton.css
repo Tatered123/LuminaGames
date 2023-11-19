@@ -18,7 +18,9 @@
 }
 
 #tom:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
+    border: 3px;
+    border-color: #702963;
 }
 
 #sws {
@@ -40,7 +42,9 @@
 }
 
 #sws:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
+    border: 3px;
+    border-color: #702963;
 }
 
 #gd {
@@ -62,5 +66,7 @@
 }
 
 #gd:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
+    border: 3px;
+    border-color: #702963;
 }
