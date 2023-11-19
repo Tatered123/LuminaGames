@@ -20,7 +20,7 @@
 
 #tom:hover {
     transform: scale(1.2);
-    border: 2px solid #702963;
+    border: 5px solid #702963;
 }
 
 #sws {
@@ -44,7 +44,7 @@
 
 #sws:hover {
     transform: scale(1.2);
-    border: 2px solid #702963;
+    border: 5px solid #702963;
 }
 
 #gd {
@@ -68,6 +68,6 @@
   
   #gd:hover {
     transform: scale(1.2);
-    border: 2px solid #702963;
+    border: 5px solid #702963;
   }
   
