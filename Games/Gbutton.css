@@ -63,10 +63,36 @@
     position: absolute;
     top: 75px;
     left: 390px;
+    background: none;
     transition: transform 0.3s, border 0.3s;
   }
   
   #gd:hover {
+    transform: scale(1.2);
+    border: 5px solid #702963;
+  }
+
+  #rcw {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/9a473490c7a26d5ac561cf021b5e7b6d.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 390px;
+    background: none;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  #rcw:hover {
     transform: scale(1.2);
     border: 5px solid #702963;
   }
