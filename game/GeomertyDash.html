@@ -8,7 +8,45 @@
 </head>
 <body>
 
-    <iframe src="https://geometrylite.io/game/geometry-lite/"></iframe>
+    <iframe id="embeddedScreen" src="https://geometrylite.io/game/geometry-lite/"></iframe>
+
+    <button id="fullscreenButton"></button>
+
+    <script>
+        // Get the embedded screen and the fullscreen button
+        const embeddedScreen = document.getElementById('embeddedScreen');
+        const fullscreenButton = document.getElementById('fullscreenButton');
+
+        // Add click event listener to the button
+        fullscreenButton.addEventListener('click', toggleFullScreen);
+
+        // Function to toggle fullscreen mode
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                // If fullscreen mode is not active, request it
+                if (embeddedScreen.requestFullscreen) {
+                    embeddedScreen.requestFullscreen();
+                } else if (embeddedScreen.mozRequestFullScreen) { // Firefox
+                    embeddedScreen.mozRequestFullScreen();
+                } else if (embeddedScreen.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                    embeddedScreen.webkitRequestFullscreen();
+                } else if (embeddedScreen.msRequestFullscreen) { // IE/Edge
+                    embeddedScreen.msRequestFullscreen();
+                }
+            } else {
+                // If fullscreen mode is active, exit it
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) { // Firefox
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) { // Chrome, Safari and Opera
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) { // IE/Edge
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
 
     <a href="/index.html">
         <button id="home-button"></button>
