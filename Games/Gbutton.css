@@ -1,0 +1,66 @@
+
+#tom {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/unnamed.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 65px;
+}
+
+#tom:hover {
+    transform: scale(1.05);
+}
+
+#sws {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/subwaysurfers-1677630205274.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 130px;
+}
+
+#sws:hover {
+    transform: scale(1.05);
+}
+
+#gd {
+    width: 125px;
+    height: 125px;
+    background-image: url('/images/Geometry_Dash_Logo.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 65px;
+}
+
+#gd:hover {
+    transform: scale(1.05);
+}
