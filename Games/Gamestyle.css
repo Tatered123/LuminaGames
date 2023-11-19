@@ -58,9 +58,9 @@ button:hover {
     border-radius: 8px;
     padding: 10px 15px;
     margin: 10px;
-    position: fixed;
-    top: 10;
-    left: 10;
+    position: absolute;
+    top: 50px;
+    left: 20px;
 }
 
 #tom:hover {
