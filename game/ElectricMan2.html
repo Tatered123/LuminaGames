@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Electric Man 2</title>
+    <link rel="stylesheet" type="text/css" href="gamelooks.css">
+</head>
+<body>
+
+    <iframe id="embeddedScreen" src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/swf-sites/swf@main/ne23.xml"></iframe>
+
+    <button id="fullscreenButton"></button>
+
+    <script>
+        // Get the embedded screen and the fullscreen button
+        const embeddedScreen = document.getElementById('embeddedScreen');
+        const fullscreenButton = document.getElementById('fullscreenButton');
+
+        // Add click event listener to the button
+        fullscreenButton.addEventListener('click', toggleFullScreen);
+
+        // Function to toggle fullscreen mode
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                // If fullscreen mode is not active, request it
+                if (embeddedScreen.requestFullscreen) {
+                    embeddedScreen.requestFullscreen();
+                } else if (embeddedScreen.mozRequestFullScreen) { // Firefox
+                    embeddedScreen.mozRequestFullScreen();
+                } else if (embeddedScreen.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                    embeddedScreen.webkitRequestFullscreen();
+                } else if (embeddedScreen.msRequestFullscreen) { // IE/Edge
+                    embeddedScreen.msRequestFullscreen();
+                }
+            } else {
+                // If fullscreen mode is active, exit it
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) { // Firefox
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) { // Chrome, Safari and Opera
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) { // IE/Edge
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
+
+    <a href="/index.html">
+        <button id="home-button"></button>
+    </a>
+
+    <a href="/Games/Games.html">
+        <button id="game-button"></button>
+    </a>
+
+    <footer>
+        <p>&copy; 2023 Lumina.</p>
+    </footer>
+
+</body>
+</html>
+
+
